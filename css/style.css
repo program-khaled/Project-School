@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Tajawal:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+/* General Style 
+    Color:#282d3c
+    Color:#789ea4
+    Color:#a09998
+    Color:#0072b5
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+}
+h1
+{
+    text-transform:capitalize;
+    font-size: 1.7rem;
+}
+
+h2{
+    text-transform:capitalize;
+    font-size: 1.4rem;
+}
+h3{
+    text-transform:capitalize;
+    font-size: 1.2rem;
+}
+li{
+    list-style: none;
+    padding: 10px 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size:1.5rem;
+     text-transform: capitalize; 
+     color:#fff;
+}
+
+a:hover{
+    color:#000;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    height:100vh;
+    direction: rtl;
+}
+/* NavBar ---------------------------------------------------------*/
+.NavBar{
+    max-width:1200px;
+    margin: auto;
+    background:linear-gradient(45deg,#789ea4,#282d3c);
+    display:grid;
+    grid-template-columns:30% auto;
+    grid-template-areas: 
+    " Nav-logo Nav-link "
+    ;
+}
+.Nav-logo{
+    grid-area:Nav-logo;
+}
+.Nav-logo img{
+    width: 30%;
+    padding-right: 20px;
+}
+.Nav-link{
+    grid-area:Nav-link;
+}
+.Nav-link ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Index -------------------------------------------------------*/
+.home-container{
+    position: relative;
+    max-width: 1200px;
+    margin:auto;
+    background-image:linear-gradient(45deg,rgba(0,0,0,.6),rgba(0,0,0,.2)),url(./../images/h5.jpeg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    height:80vh;
+}
+.home-title {
+    width: 500px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, .4);
+    padding:20px;
+    text-align:center;
+}
+.form-group .title-label{
+    color:#fff;
+    padding-bottom:10px;
+    float: right;
+}
+.form-check .form-check-input {
+    float:right;
+}
+
+.home-title h1{
+    color:#000;
+}
+.home-title h1:hover{
+    color:#fff;
+    cursor: pointer;
+}
+
+.Data-School{
+    margin-top:10px;
+
+}
+
+.form-group .form-check .form-check-label{
+    float: right;
+    color: #fff;
+}
+/* Login Page-----------------------------------------------------*/
+.title-login{
+    background:linear-gradient(45deg,#789ea4,#282d3c);
+    color:#fff;
+    padding:10px;
+}
+
+.img-title{
+    display:flex;
+    justify-content:right;
+    align-items:right;
+    padding:5px;
+}
+.img-title h3{
+    padding-top:15px;
+}
+.img-title img{
+  width: 5%;
+}
+
+/* Sign Up Page --------------------------------------------------*/
+.sign-h3{
+    padding:10px;
+}
+.singup-label {
+    width:15%;
+}
+.email-place[type=email]{
+    direction: rtl;
+}
+.bt-sign{
+    margin-bottom:20px;
+}
+
+/* Add Student --------------------------------------------------*/
+.student-container{
+    max-width:900px;
+    margin:auto;
+}
+.addStu-btn{
+    flex-direction: column;
+    width: 33%
+}
+.addStu-btn button{
+    margin-bottom:8px;
+}
+
+/* Control Panel ------------------------------------------------*/
+.side-bar{
+    max-width:1200px;
+    margin:auto;
+}
+/* Footer --------------------------------------------------------*/
+.copyright{
+    max-width:1200px;
+    margin:auto;
+    background:linear-gradient(45deg,#789ea4,#282d3c);
+    padding:15px;
+}
+.copyright h1{
+    text-align:center;
+    color:#fff;
+}
+
+.copyright h1 .mh{
+    color:#000;
+}
+.copyright h1 .os{
+    color:#000;
+}
+
+.table-title td a{
+   color:#333;
+}

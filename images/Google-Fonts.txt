@@ -1,0 +1,47 @@
+Roboto:
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+font-family: 'Roboto', sans-serif;
+/*===============================================================*/
+Montserrat:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+font-family: 'Montserrat', sans-serif;
+/*===============================================================*/
+Old Standard TT:
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+font-family: 'Old Standard TT', serif;
+/*===============================================================*/
+Ultra:
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+font-family: 'Ultra', serif;
+/*===============================================================*/
+Arapey:
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+font-family: 'Arapey', serif;
+/*===============================================================*/
+Marcellus SC:
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+font-family: 'Marcellus SC', serif;
+/*===============================================================*/
+Suranna:
+@import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+font-family: 'Suranna', serif;
+/*===============================================================*/
+Spectral SC:
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200;300;400;500;600;700;800&display=swap');
+font-family: 'Spectral SC', serif;
+/*===============================================================*/
+Antic Didone:
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+font-family: 'Antic Didone', serif;
+/*===============================================================*/
+Bellefair:
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+font-family: 'Bellefair', serif;
+/*===============================================================*/
+Hepta Slab:
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;500;600;700;800;900&display=swap');
+font-family: 'Hepta Slab', serif;
+/*===============================================================*/
+Stoke:
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap');
+font-family: 'Stoke', serif;
